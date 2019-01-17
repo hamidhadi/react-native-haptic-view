@@ -1,0 +1,24 @@
+{
+  "name": "react-native-haptic-view",
+  "version": "0.1.0",
+  "description": "A View component with Haptic effect support for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hamidhadi/react-native-haptic-view.git"
+  },
+  "author": "Hamid Hadi <hamidhadi@live.com> (https://github.com/hamidhadi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamidhadi/react-native-haptic-view/issues"
+  },
+  "homepage": "https://github.com/hamidhadi/react-native-haptic-view#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.55"
+  },
+  "devDependencies": {}
+}

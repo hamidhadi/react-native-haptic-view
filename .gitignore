@@ -1,0 +1,12 @@
+node_modules/**/*
+build
+ios/ReactNativeHapticView.xcodeproj/xcuserdata/**/*
+ios/ReactNativeHapticView.xcodeproj/project.xcworkspace/**/*
+.idea
+.gradle/
+gradlew
+gradlew.bat
+gradle/
+*.properties
+*.iml
+npm-debug.log

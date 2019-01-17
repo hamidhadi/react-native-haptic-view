@@ -1,0 +1,5 @@
+rootProject.name = 'HapticViewExample'
+include ':react-native-haptic-view'
+project(':react-native-haptic-view').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-haptic-view/android/app')
+
+include ':app'
