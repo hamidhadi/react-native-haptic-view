@@ -45,7 +45,7 @@ RCT_EXPORT_METHOD(performHaptic:(nonnull NSNumber *)reactTag
         UINotificationFeedbackType feedbackNotificationType[3] = {UINotificationFeedbackTypeSuccess, UINotificationFeedbackTypeWarning, UINotificationFeedbackTypeError};
         
         [feedbackGenerator prepare];
-        [feedbackGenerator notificationOccurred:(feedbackNotificationType[feedbackType])];
+        [feedbackGenerator notificationOccurred:(feedbackNotificationType[feedbackType - 1])];
         [feedbackGenerator prepare];
     } else if (feedbackType == 4) {
         UIImpactFeedbackGenerator *feedbackGenerator = [[UIImpactFeedbackGenerator alloc] init];
